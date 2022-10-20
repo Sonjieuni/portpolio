@@ -11,7 +11,6 @@
           <div class="slog">"손지은"의 포트폴리오</div>
         </v-layout></swiper-slide>
     </swiper>
-
     <article class="section" id="page2">
       <span></span>
       <div class="header">ABOUT</div>
