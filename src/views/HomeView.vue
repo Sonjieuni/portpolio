@@ -8,12 +8,7 @@
 
       <swiper-slide class="slide" style="background-image:url(image/top2.jpg);">
         <v-layout fill-height align-center justify-center>
-          <div class="slog">포트폴리오 손지은</div>
-        </v-layout></swiper-slide>
-
-    <swiper-slide class="slide" style="background-image:url(image/top1.jpg);">
-      <v-layout fill-height align-center justify-center>
-          <div class="slog">포트폴리오 손지은</div>
+          <div class="slog">"손지은"의 포트폴리오</div>
         </v-layout></swiper-slide>
     </swiper>
 
@@ -31,7 +26,7 @@
           <p>손지은</p>
           <p>2000.11.01</p>
           <p>010-4164-1045</p>
-          <p>jeson1101@naver.com</p>
+          <p>MBTI : ESFJ</p>
           </div>
           <div class="License">
             <h3>License</h3>
@@ -118,17 +113,21 @@
           </v-responsive>
         </v-flex>
       </v-layout>
-
     </div>
     
-    <div class="section" id="page4">
-      <div class="header">CONTACT</div>
-      <p>
-        <span>010-4164-1045</span>
-        <p></p>
-        <span>jeson1101@naver.com</span>
+    <div class="section2" id="page4" style="background-image:url(image/top1.jpg);">
+      <div class="header" style="color: white">CONTACT</div>
+      <p></p>
+      <div class="content">
+        <span><strong>" THANK YOU "</strong></span>
+      </div>
+        <div class="content2">
+          <span>PHONE : 010-4164-1045</span>
+          <p></p>
+          <span>E-MAIL : jeson1101@naver.com</span>
+        </div>
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -181,7 +180,7 @@ import "aos/dist/aos.css";
       background-size:cover;
       background-position: center center;
       .slog{
-        font-size:80px;
+        font-size:65px;
         font-weight:bold;
         color: white;
       }
@@ -189,6 +188,13 @@ import "aos/dist/aos.css";
   }
   .section{
     width:1190px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height:100vh;
+  }
+  .section2 {
+    width:fill;
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 40px;
@@ -217,7 +223,7 @@ import "aos/dist/aos.css";
       font-size: 23px;
       color: black;
       transform: translate(-50%, -50%);
-      width: 100px;
+      width: 220px;
     }
   .cont1{
     display: flex;
@@ -249,4 +255,16 @@ import "aos/dist/aos.css";
     margin: 0;
     min-height:50vh;
   }
+  .content {
+    text-align: center;
+    font-size: 40px;
+    padding: 10%;
+    color: pink;
+  }
+  .content2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
 </style>

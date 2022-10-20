@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <v-layout align-center>
-            <div class="logo">손지은의 포트폴리오</div>
+            <div class="logo" @click="home">손지은의 포트폴리오</div>
             <v-spacer></v-spacer>
             <div class="nav">
             <a href="#page1" v-smooth-scroll class="scroll">HOME&nbsp;&nbsp;&nbsp;</a>
@@ -14,9 +14,12 @@
 </template>
 
 <script>
-
 export default {
-
+   methods: {
+      home: function() {
+        this.$router.push("/");
+        }
+}
 }
 </script>
 
@@ -39,4 +42,3 @@ export default {
         font-weight:bold;
     }
 </style>
-
