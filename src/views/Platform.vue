@@ -4,7 +4,7 @@
   elevation="2" large text a href="/portpolio/#page3">BACK</v-btn>  
   <div class="test-wrap">
     <br>
-    <div class="text"><strong>VIVO 제품 서비스 소개서</strong></div>
+    <div class="text"><strong>VIVO 제품 서비스 소개서 </strong></div>
     <div class="carousel-wrap">
       <carousel v-bind="options" @initialized="init" @changed="changed">
         <img src="image/platform/platform1.png" />
