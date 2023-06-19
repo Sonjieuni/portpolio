@@ -7,12 +7,12 @@
     <div class="text"><strong>VIVO 제품 서비스 소개서</strong></div>
     <div class="carousel-wrap">
       <carousel v-bind="options" @initialized="init" @changed="changed">
-        <img src="image/platform/platform1.PNG" />
+        <img src="image/platform/platform1.png" />
         <img src="image/platform/platform2.png" />
-        <img src="image/platform/platform3.PNG" />
-        <img src="image/platform/platform4.PNG" />
-        <img src="image/platform/platform5.PNG" />
-        <img src="image/platform/platform6.PNG" />
+        <img src="image/platform/platform3.png" />
+        <img src="image/platform/platform4.png" />
+        <img src="image/platform/platform5.png" />
+        <img src="image/platform/platform6.png" />
       </carousel>
     </div>
   </div>
