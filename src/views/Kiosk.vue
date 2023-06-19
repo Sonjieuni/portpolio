@@ -20,8 +20,8 @@
           </div>
 
           <div class="flex3">
-            <img src="image/kiosk/kiosk6.png" class="img">
-            <img src="image/kiosk/kiosk7.png" class="img">
+            <img src="image/kiosk/kiosk6.png" class="img" >
+            <img src="image/kiosk/kiosk7.png" class="img" >
             <strong class="memo"> ←나만의 메뉴에 자주 먹는 메뉴 저장 /  결제는 간편하게 바코드로 진행</strong>
           </div>
         </div>
